@@ -1,0 +1,84 @@
+.tender {
+    max-width: 1440px;
+    background-color: #FBFBFB;
+    
+}
+.tender__main {    
+    max-width: 1146px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tender__title {
+    
+    font-size: 36px;
+    line-height: 43px;
+    font-family: 'Geometria-bold';
+}
+.tender__vacancy {
+    max-width: 814px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    margin-bottom: 22px;
+    padding: 20px;
+}
+.tender__subtitle {
+    margin: 0;
+    font-size: 26px;
+    line-height: 31px;
+    color: #020303;
+    font-family: 'Geometria-bold';
+}
+.tender_description {
+    max-width: 412px;
+    margin: 16px 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.tender__pay {
+    font-size: 16px;
+    line-height: 19px;    
+    font-family: 'Geometria-bold';
+}
+.tender__grafic {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+.tender__skills {
+    max-width: 430px;
+    line-height: 35px;
+}
+.tender__published {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #C4C4C4;
+}
+.tender__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tender__image {
+    margin: 0 auto;
+    align-self: center;
+}
+.tender__image_one {
+    width: 136px;
+    height: 135px;
+}
+.tender__image_two {
+    width: 220px;
+    height: 115px;
+}
+.tender__image_three {
+    width: 184px;
+    height: 93px;
+}

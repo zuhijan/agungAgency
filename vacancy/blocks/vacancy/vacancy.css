@@ -1,0 +1,60 @@
+.vacancy {
+    display: flex;
+    max-width: 1146px;
+    margin: 0 auto;
+    padding-top: 72px;
+    justify-content: space-between;
+    padding-bottom: 82px;
+}
+.vacancy__title {
+    margin: 0;
+    font-size: 46px;
+    line-height: 55px;
+    font-family: 'Geometria-bold';
+}
+.vacancy__subtitle {    
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Geometria-bold';
+}
+.vacancy__subtitle-description {
+    max-width: 557px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+.vacancy__description {
+    max-width: 389px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    
+}
+.vacancy__list {
+    max-width: 389px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.vacancy__pay {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+    font-family: 'Geometria-bold';
+}
+.vacancy__skills {
+    max-width: 430px;
+    line-height: 35px;
+}
+
+.vacancy__grafic {
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    display: inline-block;
+    margin-right: 51px;
+}
+.vacancy__img {
+    margin-right: 5px;
+
+}
