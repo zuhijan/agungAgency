@@ -1,0 +1,17 @@
+@import url('../vendor/normalize.css');
+@import url('./header/header.css');
+@import url('./represent/represent.css');
+@import url('./modal/modal.css');
+@import url('./invisible/invisible.css');
+@font-face {
+    src: url('../fonts/CieSans-Book.otf');
+    font-family: 'CieSans';
+}
+
+.main {
+    position: relative;
+    font-family: 'CieSans';
+}
+
+
+

@@ -1,0 +1,59 @@
+.invisible {
+    display: none;
+}
+.invisible__container {
+    width: 100%;
+    height: 100vh;
+    background-color: #E1234556;
+}
+.invisible__container-title {
+    padding: 24px;
+    background-color: #737378;
+}
+.invisible__title {
+    font-size: 26px;
+    line-height: 31px;    
+}
+.invisible__block {
+    display: flex;
+    flex-wrap: wrap;
+    height: 91.5vh;
+    background-color: #E1234556;
+}
+.invisible__fourth {
+    outline: 1px solid black;
+    width: 50%;
+    height: 50%;    
+}
+.invisible__foot {
+    position: relative;
+    background-color: #737378;
+    padding: 30px;
+}
+.invisible__foot-description {
+    max-width: 1440px;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: normal;
+}
+.invisible__foot-description:last-of-type {
+    padding-top: 30px;
+    padding-bottom: 249px;
+}
+.invisible__button {
+    position: absolute;
+    left: 0;    
+    bottom: 0;
+    width: 100%;     
+    font-size: 36px;
+    line-height: 43px;
+    background-color: #87878C;;    
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.invisible_enabled {
+    display: block;
+}
