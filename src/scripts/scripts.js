@@ -1,4 +1,4 @@
-const headerButton = document.querySelector(".header__button");
+const headerLink = document.querySelector(".header__link");
 const modalButton = document.querySelector(".modal__button");
 const modal = document.querySelector(".modal");
 
@@ -16,8 +16,10 @@ const invisibleThird = document.querySelector(".invisible_third");
 const representSubtitleThird = document.querySelector(".represent__subtitle_third");
 const representButtonThird = document.querySelector(".invisible__button_third");
 const representSubtitleThirdHidden = document.querySelector(".represent_subtitle_third-hidden");
+const representSubtitleHide = "represent__subtitle_hide";
+const invisibleEnabled = "invisible_enabled"
 
-headerButton.addEventListener("click", () => { 
+headerLink.addEventListener("click", () => { 
     modal.classList.add("modal_open");
     modal.classList.remove("modal_close");   
 })
@@ -27,36 +29,36 @@ modalButton.addEventListener("click", () => {
     modal.classList.add("modal_close");    
 })
 representSubtitleFirst.addEventListener("click", () => {
-    invisibleFirst.classList.add("invisible_enabled");
-    representSubtitleFirst.classList.add("represent__subtitle_hide");
-    representSubtitleFirstHidden.classList.remove("represent__subtitle_hide");
+    invisibleFirst.classList.add(invisibleEnabled);
+    representSubtitleFirst.classList.add(representSubtitleHide);
+    representSubtitleFirstHidden.classList.remove(representSubtitleHide);
 })
 representButtonFirst.addEventListener("click", () => { 
-    invisibleFirst.classList.remove("invisible_enabled");
-    representSubtitleFirst.classList.remove("represent__subtitle_hide");
-    representSubtitleFirstHidden.classList.add("represent__subtitle_hide");    
+    invisibleFirst.classList.remove(invisibleEnabled);
+    representSubtitleFirst.classList.remove(representSubtitleHide);
+    representSubtitleFirstHidden.classList.add(representSubtitleHide);    
 })
 
 representSubtitleSecond.addEventListener("click", () => {
-    invisibleSecond.classList.add("invisible_enabled");
-    representSubtitleSecond.classList.add("represent__subtitle_hide");
-    representSubtitleSecondHidden.classList.remove("represent__subtitle_hide");
+    invisibleSecond.classList.add(invisibleEnabled);
+    representSubtitleSecond.classList.add(representSubtitleHide);
+    representSubtitleSecondHidden.classList.remove(representSubtitleHide);
 })
 representButtonSecond.addEventListener("click", () => { 
-    invisibleSecond.classList.remove("invisible_enabled");
-    representSubtitleSecond.classList.remove("represent__subtitle_hide");
-    representSubtitleSecondHidden.classList.add("represent__subtitle_hide");
+    invisibleSecond.classList.remove(invisibleEnabled);
+    representSubtitleSecond.classList.remove(representSubtitleHide);
+    representSubtitleSecondHidden.classList.add(representSubtitleHide);
     
 })
 
 representSubtitleThird.addEventListener("click", () => {
-    invisibleThird.classList.add("invisible_enabled");
-    representSubtitleThird.classList.add("represent__subtitle_hide");
-    representSubtitleThirdHidden.classList.remove("represent__subtitle_hide");
+    invisibleThird.classList.add(invisibleEnabled);
+    representSubtitleThird.classList.add(representSubtitleHide);
+    representSubtitleThirdHidden.classList.remove(representSubtitleHide);
 })
 representButtonThird.addEventListener("click", () => { 
-    invisibleThird.classList.remove("invisible_enabled");
-    representSubtitleThird.classList.remove("represent__subtitle_hide");
-    representSubtitleThirdHidden.classList.add("represent__subtitle_hide");
+    invisibleThird.classList.remove(invisibleEnabled);
+    representSubtitleThird.classList.remove(representSubtitleHide);
+    representSubtitleThirdHidden.classList.add(representSubtitleHide);
     
 })

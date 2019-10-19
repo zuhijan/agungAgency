@@ -57,3 +57,32 @@
 .invisible_enabled {
     display: block;
 }
+@media all and (max-width: 1024px) { 
+    .invisible__foot-description {        
+        font-size: 24px;
+        line-height: 28px;
+        
+    }    
+    .invisible__title { 
+        font-size: 20px;
+        line-height: 24px;
+    }
+   
+}
+
+@media all and (max-width: 425px) { 
+    .invisible__foot-description {
+        max-width: 330px;
+        font-size: 12px;
+        line-height: 18px;
+        
+    }
+    .invisible__button { 
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .invisible__title { 
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

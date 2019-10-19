@@ -31,6 +31,8 @@
     font-size: 36px;
     line-height: 43px;
     text-align: right;
+    cursor: pointer;
+    padding-right: 5px;
 }
 
 .header {    
@@ -44,7 +46,7 @@
 
     
 }
-.header__button {       
+.header__scroll {       
     position: absolute;
     left: 0;    
     bottom: 0;
@@ -54,8 +56,35 @@
     background-color: #87878C;;    
     text-transform: uppercase;
     text-align: center;
-    cursor: pointer;
-    outline: none;
-    border: none;
+    
+}
+@media all and (max-width: 1025px) { 
+    .header__title {
+        line-height: 115px;
+    }
+}
+@media all and (max-width: 425px) { 
+    .header__block-info {        
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .header__title {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .header__subtitle {
+        font-size: 14px;
+        line-height: 17px;
 
+    }
+    .header__link {
+        font-size: 14px;
+        line-height: 17px;
+        
+
+    }
+    .header__scroll { 
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

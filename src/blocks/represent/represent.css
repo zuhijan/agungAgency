@@ -39,7 +39,7 @@
 .represent__information-title {
     margin: 0;
     font-size: 36px;
-    line-height: 43px;
+    line-height: 70%; 
     font-weight: normal;
 }
 .represent__information-subtitle {
@@ -49,11 +49,11 @@
     font-weight: normal;
 }
 .represent__title_one {
-    font-size: 283px; 
+    font-size: 12vw;
     
 }
 .represent__title_two {
-    font-size: 243px;     
+    font-size: 14vw; 
 }
 .represent__subtitle {
     font-size: 36px;
@@ -70,7 +70,7 @@
     padding-bottom: 135px;
     padding-left: 30px;
 }
-.represent__copyright {    
+.represent__copyright {     
     max-width: 200px; 
     font-size: 26px;
     line-height: 31px;
@@ -93,4 +93,63 @@
 }
 .represent__subtitle_hide {
     display: none;
+}
+
+@media all and (max-width: 1024px) {     
+    .represent__title {        
+        line-height: 115px;
+        margin-bottom: 12px;
+    }
+    .represent__adress {  
+        font-size: 24px;
+        line-height: 28px; 
+    }    
+}
+
+@media all and (max-width: 768px) {     
+    .represent__title {        
+        line-height: 85px;
+        margin-bottom: 12px;
+    }
+    .represent__adress {  
+        font-size: 24px;
+        line-height: 28px; 
+    }    
+}
+
+
+
+@media all and (max-width: 425px) { 
+    .represent__container_one {
+        padding: 5px;
+        width: calc(100% - 10px);
+    }
+    .represent__title {
+        font-size: 46px;
+        line-height: 55px;
+        margin-bottom: 12px;
+    }
+    .represent__adress {  
+        font-size: 14px;
+        line-height: 18px; 
+    }
+    .represent__copyright { 
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .represent__subtitle { 
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .represent__information {
+        padding: 5px;
+    }
+    .represent__information-title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .represent__information-subtitle {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

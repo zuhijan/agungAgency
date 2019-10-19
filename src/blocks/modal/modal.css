@@ -86,3 +86,26 @@
     animation: reverse-scroll-modal 1s ease-in 1 normal forwards running; 
     display: block;  
 }
+
+@media all and (max-width: 425px) { 
+    .modal__title {        
+        font-size: 14px;
+        line-height: 17px;        
+    }
+    .modal__subtitle {
+        font-size: 14px;
+        line-height: 17px;  
+    }
+    .modal__about {
+        font-size: 14px;
+        line-height: 17px; 
+    }
+    .modal__adress {
+        font-size: 14px;
+        line-height: 17px; 
+    }
+    .modal__button {    
+        font-size: 14px;
+        line-height: 17px; 
+    }
+}

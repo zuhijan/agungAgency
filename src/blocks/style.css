@@ -7,7 +7,9 @@
     src: url('../fonts/CieSans-Book.otf');
     font-family: 'CieSans';
 }
-
+html {
+    scroll-behavior: smooth; 
+}
 .main {
     position: relative;
     font-family: 'CieSans',  'Arial', 'Helvetica CY', 'Comic Sans MS';
